@@ -51,7 +51,6 @@ unsigned short calibration_value (char str []) {
 
     char value [] = {first_digit, last_digit};
 
-
     return strtoul (value, NULL, 10);
 
 }
